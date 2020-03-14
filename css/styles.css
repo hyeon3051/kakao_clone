@@ -1,19 +1,23 @@
 @import "reset.css";
 @import "status_bar.css";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,,600,700&display=swap");
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
 .body {
   background-color: white;
   padding: 10px 20px;
   color: #020202;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Open Sans", "Segoe UI", -apple-system, BlinkMacSystemFont,
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 * {
   box-sizing: border-box;
